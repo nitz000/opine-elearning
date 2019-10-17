@@ -37,7 +37,7 @@
 }
 
 .login-left {
-  padding: 8em 7em;
+  padding: 7em 7em;
   font-family: "Source Sans Pro", sans-serif;
 }
 .login-left .college-name {
@@ -62,7 +62,8 @@
   border: none;
 }
 .login-left .login-form input:focus {
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(7, 64, 32, 0.15);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(7, 64, 32, 0.15);
 }
 .login-left .login-form select {
   background: #edecec;
@@ -74,7 +75,8 @@
   border: none;
 }
 .login-left .login-form select:focus {
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(7, 64, 32, 0.15);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(7, 64, 32, 0.15);
 }
 .login-left .login-form button {
   background: #525252;

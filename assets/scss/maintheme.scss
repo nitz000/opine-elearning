@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap");
+
 .login-right {
   height: 100vh;
   background: url("../images/loginbg.jpeg");
@@ -36,7 +37,7 @@
   }
 }
 .login-left {
-  padding: 8em 7em;
+  padding: 7em 7em;
   font-family: "Source Sans Pro", sans-serif;
   .college-name {
     font-size: 28px;
@@ -109,12 +110,4 @@ input.valid {
   padding: 9px;
   margin-top: 2em;
   display: none;
-}
-.half-left {
-  width: 48%;
-  float: left;
-}
-.half-right {
-  width: 50%;
-  float: right;
 }
