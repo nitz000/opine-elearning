@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap");
+.login-right {
+  height: 100vh;
+  background: url("../images/loginbg.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-right .product-logo {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 17em;
+  width: 17em;
+  background: white;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 51px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 51px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 51px -6px rgba(0, 0, 0, 0.75);
+  background: #e0e0e0;
+  padding: 2em;
+}
+.login-right .product-logo .product-name {
+  font-weight: 600;
+  font-size: 40px;
+  color: #515152;
+}
+.login-right .product-logo .product-name-dimmer {
+  font-weight: 600;
+  font-size: 30px;
+  color: #969696;
+}
+.login-right .product-logo .powered-by {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+}
+
+.login-left {
+  padding: 8em 7em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.login-left .college-name {
+  font-size: 28px;
+}
+.login-left .product-name {
+  font-size: 20px;
+  color: #989898;
+  margin-top: 4px;
+  display: block;
+}
+.login-left .login-form {
+  margin-top: 7em;
+}
+.login-left .login-form input {
+  background: #edecec;
+  padding: 12px;
+  height: 3em;
+  border: 1px solid #cfcfcf;
+  margin-top: 13px;
+  border-radius: 0;
+  border: none;
+}
+.login-left .login-form input:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(7, 64, 32, 0.15);
+}
+.login-left .login-form select {
+  background: #edecec;
+  padding: 12px;
+  height: 3em;
+  border: 1px solid #cfcfcf;
+  margin-top: 13px;
+  border-radius: 0;
+  border: none;
+}
+.login-left .login-form select:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(7, 64, 32, 0.15);
+}
+.login-left .login-form button {
+  background: #525252;
+  padding: 7px 33px;
+  color: white;
+  margin-top: 1em;
+}
+.login-left .form-extra {
+  margin-top: 2em;
+  color: #b8b7b7;
+}
+.login-left a {
+  color: #0d3731;
+  padding: 1px;
+}
+
+input.error {
+  border-bottom: 2px solid #dd5858 !important;
+}
+
+label.error {
+  margin-top: 9px;
+  color: #f05656;
+  font-size: 13px;
+}
+
+input.valid {
+  border-bottom: 2px solid #559355 !important;
+}
+
+.forgot-message {
+  background: #e3ff6a;
+  padding: 9px;
+  margin-top: 2em;
+  display: none;
+}
+
+.half-left {
+  width: 48%;
+  float: left;
+}
+
+.half-right {
+  width: 50%;
+  float: right;
+}
+
+/*# sourceMappingURL=maintheme.css.map */
