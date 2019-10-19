@@ -30,11 +30,11 @@
                 <form action="" class="login-form  forgot-form validate-form">
                     <div class="form-group">
                         <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email" required validate>
+                        <input type="email" class="form-control" id="email" name="email" required validate>
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd" required validate>
+                        <input type="password" class="form-control" id="pwd" name="pwd" required validate>
                     </div>
                     <button type="submit" class="btn btn-default">Submit</button>
                 </form>

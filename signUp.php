@@ -41,7 +41,7 @@
                             <input type="text" class="form-control" id="name" name="name" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="sel1">Select list:</label>
+                            <label for="sel1">Department</label>
                             <select class="form-control" id="sel1" name="sel1" required>
                                 <option>Computer Science</option>
                                 <option>Bio Chemical Engg</option>
@@ -53,11 +53,21 @@
                     <div class="row">
                         <div class="form-group col-md-6 ">
                             <label for="year">Year</label>
-                            <input type="number" class="form-control" id="year" name="year" required validate>
+                            <select class="form-control" id="year" name="year" required>
+                                <option>1st Year</option>
+                                <option>2nd Year</option>
+                                <option>3rd Year</option>
+                                <option>4th Year</option>
+                            </select>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="sem">Semester</label>
-                            <input type="number" class="form-control" id="sem" name="sem" required validate>
+                            <select class="form-control" id="sem" name="sem" required>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-default forgot-submit">Submit</button>
