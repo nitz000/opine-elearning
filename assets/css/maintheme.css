@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700&display=swap");
 .login-right {
   height: 100vh;
   background: url("../images/loginbg.jpeg");
@@ -231,21 +231,37 @@ select option:hover {
   font-size: 18px;
   margin-bottom: 1.75em;
 }
+.recent-list-wrapper .recent-item {
+  position: relative;
+}
+.recent-list-wrapper .recent-item .material-type-wrapper {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  background: #010618;
+  padding: 5px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  height: 23px;
+}
 .recent-list-wrapper .recent-item a {
   text-decoration: none;
 }
 .recent-list-wrapper .recent-item-inner {
-  background: #dfff3f;
+  background: #f7f7f7;
   padding: 20px;
   border-radius: 5px;
   transition: all 0.3s ease;
   border: 1px solid #b6e6c4;
+  border-bottom: 4px solid #0e1d32;
 }
 .recent-list-wrapper .recent-item-inner:hover {
   -webkit-box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.27);
   -moz-box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.27);
   box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.27);
   border: 1px solid #b1b1b1;
+  border-bottom: 4px solid #9fb84a;
 }
 .recent-list-wrapper .recent-item-inner h3 {
   font-size: 14px;
@@ -275,6 +291,30 @@ select option:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.sidebar {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 5% 0 0 3%;
+}
+.sidebar .sidebar-user-info {
+  margin-bottom: 4em;
+}
+.sidebar .side-notif {
+  height: 9px;
+  width: 9px;
+  background: red;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.sidebar nav a {
+  color: #c7d6da;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1.7em;
 }
 
 /*# sourceMappingURL=maintheme.css.map */

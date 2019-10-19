@@ -8,13 +8,10 @@
     <title>eLearning Portal</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/reset.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
-
-    <script src="../assets/js/transition.js"></script>
     <script src="../assets/js/theme.js"></script>
     <link rel="stylesheet" href="../assets/css/maintheme.css">
 </head>
@@ -27,7 +24,21 @@
     </div>
     <div class="page-wrapper">
         <div class="sidebar">
-
+            <div class="sidebar-user-info">
+                Aditya Subramaniyan <br>
+                B.Tech - CSE <br>
+                3rd Year
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href=""> Home / Search materials </a></li>
+                    <li> <a href=""> Previous question papers</a> </li>
+                    <li> <a href=""> Contribute materials</a> </li>
+                    <li> <a href=""> Discussion Board <span class="side-notif"></span></a></li>
+                    <li> <a href=""> View tutors</a></li>
+                    <li> <a href=""> Account settings </a></li>
+                </ul>
+            </nav>
         </div>
         <div class="page-content">
             <div class="container-fluid">
@@ -127,7 +138,44 @@
                                         </a>
                                     </div>
                                 </div>
-
+                                <div class="row mt2">
+                                    <div class="col-md-4 recent-item">
+                                        <div class="material-type-wrapper">
+                                            PDF
+                                        </div>
+                                        <a href="">
+                                            <div class="recent-item-inner">
+                                                <h3>Artificial Neural Networks</h3>
+                                                <h4>Neural Networks introduction</h4>
+                                                <div class="added-by-inner">
+                                                    Added by <div class="add-thumb"><img src="../assets/images/tutors/1.jpg" alt="" srcset=""></div> Arjun Narayanan
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 recent-item">
+                                        <a href="">
+                                            <div class="recent-item-inner">
+                                                <h3>Artificial Neural Networks</h3>
+                                                <h4>Neural Networks introduction</h4>
+                                                <div class="added-by-inner">
+                                                    Added by <div class="add-thumb"><img src="../assets/images/tutors/1.jpg" alt="" srcset=""></div> Arjun Narayanan
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 recent-item">
+                                        <a href="">
+                                            <div class="recent-item-inner">
+                                                <h3>Artificial Neural Networks</h3>
+                                                <h4>Neural Networks introduction</h4>
+                                                <div class="added-by-inner">
+                                                    Added by <div class="add-thumb"><img src="../assets/images/tutors/1.jpg" alt="" srcset=""></div> Arjun Narayanan
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
