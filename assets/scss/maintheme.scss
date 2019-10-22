@@ -152,8 +152,20 @@ input.valid {
   font-family: "Source Sans Pro", sans-serif;
   padding: 2em;
   .breadcrumbs {
-    color: #676c93;
+    a {
+      color: #676c93;
+      text-decoration: none;
+    }
     font-weight: 600;
+    i {
+      font-size: 5px;
+
+      margin: 0px 5px;
+
+      display: inline-block;
+
+      vertical-align: middle;
+    }
   }
   .page-heading {
     font-size: 25px;
@@ -162,10 +174,12 @@ input.valid {
     color: #202034;
   }
   .header-time {
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 21px;
-    color: #202034;
+    a {
+      color: #454547;
+      font-weight: 500;
+      font-size: 16px;
+      text-decoration: none;
+    }
   }
 }
 hr {
@@ -291,7 +305,7 @@ select option:hover {
 }
 .sidebar {
   font-family: "Source Sans Pro", sans-serif;
-  padding: 5% 0 0 3%;
+  padding: 3% 0 0 3%;
   .sidebar-user-info {
     margin-bottom: 4em;
   }
@@ -312,5 +326,20 @@ select option:hover {
       display: block;
       margin-bottom: 1.7em;
     }
+  }
+}
+.logout-btn {
+  background: #847f7f0a;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 1.5em;
+  border: 1px solid #d8d8d8;
+  transition: all 0.3s ease;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
   }
 }
