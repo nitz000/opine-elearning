@@ -20,7 +20,7 @@
         </div>
         <div class="row inner-content">
             <div class="col-md-12">
-                <form action="" class="inner-form validate-form">
+                <form action="materialresult.php" class="inner-form validate-form">
                     <div class="row">
                         <div class="form-group col-md-4">
                             <label for="">Choose course / Department</label>
@@ -103,17 +103,6 @@
                                 <div class="material-type-wrapper">
                                     PDF
                                 </div>
-                                <a href="">
-                                    <div class="recent-item-inner">
-                                        <h3>Artificial Neural Networks</h3>
-                                        <h4>Neural Networks introduction</h4>
-                                        <div class="added-by-inner">
-                                            Added by <div class="add-thumb"><img src="../assets/images/tutors/1.jpg" alt="" srcset=""></div> Arjun Narayanan
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 recent-item">
                                 <a href="">
                                     <div class="recent-item-inner">
                                         <h3>Artificial Neural Networks</h3>

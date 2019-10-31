@@ -91,13 +91,14 @@
   padding: 1px;
 }
 
-input.error {
+input.error,
+textarea.error {
   border-bottom: 2px solid #dd5858 !important;
 }
 
 label.error {
   margin-top: 9px;
-  color: #f05656;
+  color: #f05656 !important;
   font-size: 13px;
 }
 
@@ -117,7 +118,7 @@ input.valid {
 }
 
 .sidebar {
-  background: #010618;
+  background: #151e19;
   height: 100vh;
   width: 20%;
 }
@@ -156,7 +157,8 @@ input.valid {
   padding: 2em;
 }
 .page-content .breadcrumbs {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 14px;
 }
 .page-content .breadcrumbs a {
   color: #676c93;
@@ -174,6 +176,9 @@ input.valid {
   margin-top: 10px;
   color: #202034;
 }
+.page-content .page-heading h2 {
+  display: inline-block;
+}
 .page-content .header-time a {
   color: #454547;
   font-weight: 500;
@@ -185,10 +190,6 @@ hr {
   border-bottom: 2px solid #b1b1b1;
 }
 
-.inner-content {
-  margin-top: 1em;
-}
-
 .inner-form label {
   font-weight: 600;
   margin-bottom: 15px;
@@ -196,8 +197,8 @@ hr {
 }
 .inner-form input,
 .inner-form select {
-  background: #e4e2e2;
-  height: 3em;
+  background: #fcfcfc;
+  height: 34px;
   color: #29233e;
   font-weight: 500;
   -webkit-appearance: none;
@@ -304,7 +305,21 @@ select option:hover {
 
 .sidebar {
   font-family: "Source Sans Pro", sans-serif;
-  padding: 3% 0 0 3%;
+}
+.sidebar .sidebar-right {
+  padding: 8em 2em;
+}
+.sidebar .sidebar-right i {
+  color: white;
+  margin-right: 1em;
+  width: 1.5em;
+}
+.sidebar .sidebar-left {
+  padding: 7em 1em;
+  color: white;
+}
+.sidebar .sidebar-left ul li {
+  margin-bottom: 1.7em;
 }
 .sidebar .sidebar-user-info {
   margin-bottom: 4em;
@@ -319,11 +334,12 @@ select option:hover {
   margin-left: 5px;
 }
 .sidebar nav a {
-  color: #c7d6da;
+  color: white;
   text-decoration: none;
   font-weight: 600;
-  display: block;
+  display: inline-block;
   margin-bottom: 1.7em;
+  font-size: 14px;
 }
 
 .logout-btn {
@@ -340,6 +356,236 @@ select option:hover {
   -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.29);
+}
+
+.inner-search-bar button {
+  width: 100%;
+  background: #13262e;
+  height: 36px;
+  margin-top: 0.9em;
+  transition: all 0.3s ease;
+}
+
+div.dataTables_length {
+  float: left;
+}
+
+div.dataTables_filter {
+  float: right;
+}
+
+div.dataTables_info {
+  float: left;
+}
+
+div.dataTables_paginate {
+  float: right;
+}
+
+div.DTTT {
+  float: left;
+  margin-right: 50px;
+}
+
+div.buttons {
+  clear: both;
+}
+
+.dataTables_filter input {
+  background: #fdfdfd;
+  padding: 7px;
+  border: 1px solid #bbb5b5;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.dataTables_length select {
+  background: #fdfdfd;
+  padding: 3px;
+  border: 1px solid #bbb5b5;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.chosen-container {
+  width: 100% !important;
+}
+
+.chosen-container-single .chosen-single {
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+.chosen-single {
+  background: white !important;
+}
+
+.chosen-container-single .chosen-single span {
+  padding-top: 4px;
+}
+
+.chosen-container-single .chosen-single div b {
+  margin-top: 2px;
+}
+
+.chosen-container-active .chosen-single,
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border-color: #ccc;
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9 ;
+  -moz-box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.bb {
+  border-bottom: 2px solid #999494;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+th {
+  font-weight: 600;
+}
+
+tr span {
+  font-size: 13px;
+}
+tr span i {
+  margin-right: 5px;
+}
+
+.tdaction i {
+  margin-right: 0.5em;
+}
+.tdaction a {
+  color: #303748;
+  font-size: 14px;
+}
+
+.player-wrapper {
+  background: black;
+  height: 60vh;
+}
+
+.player-page {
+  width: 80%;
+  float: right;
+}
+
+.video-information {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 3em;
+}
+.video-information h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #838600;
+}
+.video-information h2 {
+  font-size: 21px;
+  padding: 10px 0px 20px;
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.video-js {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.subheading {
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+.subheading i {
+  margin-right: 0.5em;
+}
+
+.chosen-disabled {
+  opacity: 1 !important;
+}
+
+.addnewaction {
+  background: #d4ff88;
+  border-radius: 15px;
+  padding: 10px 19px;
+  display: inline-block;
+  font-size: 15px;
+  color: #2f2a2a;
+  vertical-align: middle;
+  margin-left: 15px;
+  border: 1px solid #ebebeb;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.addnewaction:hover {
+  text-decoration: none;
+  color: black;
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+}
+.addnewaction:focus {
+  text-decoration: none;
+  color: black;
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.07);
+}
+
+.modal-backdrop {
+  background-color: #f9f9f9;
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #444040;
+  color: white;
+}
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 0.5;
+}
+
+.modal {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.modal h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+.modal h5 i {
+  margin-right: 0.5em;
+  width: 1em;
+}
+.modal .modal-form label {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #65658f;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+.bootbox-confirm {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.bootbox .modal-dialog {
+  width: 25%;
 }
 
 /*# sourceMappingURL=maintheme.css.map */
